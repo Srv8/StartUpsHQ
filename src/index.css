@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pageBttn {
+    width: 80%;
+    height: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pageBttn a {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+.paginationActive a{
+    color: white;
+    background-color: #000000;
+}
